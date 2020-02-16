@@ -5,7 +5,7 @@
       <parameters>
         <parameter value="-make:transitive" />
         <parameter value="-dependencyfile" />
-        <parameter value="C:\River\javacode\flink\Spark\code\RiverSpark\target/.scala_dependencies" />
+        <parameter value="C:\River\Spark\RiverSpark\target/.scala_dependencies" />
       </parameters>
     </profile>
   </component>
