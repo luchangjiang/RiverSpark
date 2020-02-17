@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a7d3a2c-bd8c-4dc0-a707-d31cff930021" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/person.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/spark/com/river/spark/demo3/DataFrameDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/spark/com/river/spark/demo3/DataFrameSchema.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/CarryingDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/Constant.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/MyPredef.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/RichFileDemo.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/.scala_dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/target/.scala_dependencies" afterDir="false" />
     </list>
@@ -56,20 +58,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="1879" />
+          <entry key="scala" value="2286" />
           <entry key="txt" value="90" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="90" />
-          <entry key="Scala" value="1879" />
+          <entry key="Scala" value="2286" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="scala" value="5" />
+          <entry key="scala" value="13" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -77,7 +79,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Scala" value="5" />
+          <entry key="Scala" value="13" />
         </counts>
       </usages-collector>
     </session>
@@ -114,14 +116,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/demo3/DataFrameSchema.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#31#66#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/Constant.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/CarryingDemo.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/RichFileDemo.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/MyPredef.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -136,42 +174,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6.jar!/scala/Predef.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
-              <caret line="102" column="15" selection-start-line="102" selection-start-column="15" selection-end-line="102" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/demo1/TuppleDemo.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/demo1/ZipDemo.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/demo1/SeqDemo.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/demo1/SetDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
@@ -181,6 +183,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -214,6 +223,15 @@
         <option value="$PROJECT_DIR$/src/main/resources/person.txt" />
         <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/demo3/DataFrameDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/demo3/DataFrameSchema.scala" />
+        <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/demo3/CarryingDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/demo3/Constant.scala" />
+        <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/demo2/Constant.scala" />
+        <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/demo2/CarryingDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/implicit/CarryingDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/implicit/MyPredef.scala" />
+        <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/MyPredef.scala" />
+        <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/Constant.scala" />
+        <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/RichFileDemo.scala" />
       </list>
     </option>
   </component>
@@ -314,6 +332,14 @@
               <item name="spark" type="462c0819:PsiDirectoryNode" />
               <item name="demo3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="RiverSpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RiverSpark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="implicits" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -323,8 +349,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581949704497" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581953330302" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../flink/code/FlinkTutorial" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -341,14 +367,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DataFrameSchema">
+  <component name="RunManager" selected="Application.RichFileDemo">
+    <configuration name="CarryingDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.spark.implicits.CarryingDemo" />
+      <module name="RiverSpark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.river.spark.`implicit`.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataFrameDemo" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.river.spark.demo3.DataFrameDemo" />
       <module name="RiverSpark" />
       <option name="PROGRAM_PARAMETERS" value="hdfs://centos81:9000/person.txt hdfs://centos81:9000/output2/" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.spark.demo3.*" />
+          <option name="PATTERN" value="com.river.spark.`implicit`.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,7 +401,7 @@
       <option name="PROGRAM_PARAMETERS" value="hdfs://centos81:9000/person.txt hdfs://centos81:9000/output3/" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.spark.demo3.*" />
+          <option name="PATTERN" value="com.river.spark.`implicit`.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,7 +414,7 @@
       <module name="RiverSpark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.spark.demo2.*" />
+          <option name="PATTERN" value="com.river.spark.`implicit`.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,25 +422,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrivateDemo2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.spark.demo2.PrivateDemo2" />
+    <configuration name="RichFileDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.spark.implicits.RichFileDemo" />
       <module name="RiverSpark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.spark.demo2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.spark.demo2.Test" />
-      <module name="RiverSpark" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.river.spark.demo2.*" />
+          <option name="PATTERN" value="com.river.spark.implicits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -410,19 +436,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.PrivateDemo" />
-      <item itemvalue="Application.PrivateDemo2" />
       <item itemvalue="Application.DataFrameDemo" />
       <item itemvalue="Application.DataFrameSchema" />
+      <item itemvalue="Application.CarryingDemo" />
+      <item itemvalue="Application.RichFileDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RichFileDemo" />
+        <item itemvalue="Application.CarryingDemo" />
         <item itemvalue="Application.DataFrameSchema" />
         <item itemvalue="Application.DataFrameDemo" />
         <item itemvalue="Application.PrivateDemo" />
-        <item itemvalue="Application.PrivateDemo2" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -447,12 +473,12 @@
       <updated>1581851555508</updated>
       <workItem from="1581851559833" duration="6297000" />
       <workItem from="1581858721723" duration="3696000" />
-      <workItem from="1581941194893" duration="5128000" />
+      <workItem from="1581941194893" duration="8771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15121000" />
+    <option name="totallyTimeSpent" value="18764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -614,11 +640,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/demo3/DataFrameSchema.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#31#66#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/demo3/CarryingDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/demo3/Constant.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/demo2/Constant.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/demo2/CarryingDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/CarryingDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/MyPredef.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/Constant.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/RichFileDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
         </state>
       </provider>
     </entry>
