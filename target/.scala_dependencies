@@ -9,10 +9,9 @@ C:\MyProgram\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\MyProgram\Java\jdk1.8.0_2
 ..\src\main\spark\com\river\spark\demo2\ReduceDemo.scala -> ..\src\main\spark\com\river\spark\demo2\ReduceDemo.scala
 ..\src\main\spark\com\river\spark\demo1\ArrayDemo.scala -> ..\src\main\spark\com\river\spark\demo1\ArrayDemo.scala
 ..\src\main\spark\com\river\spark\implicits\RichFileDemo.scala -> ..\src\main\spark\com\river\spark\implicits\RichFileDemo.scala
-..\src\main\spark\com\river\spark\implicits\RichFileDemo.scala -> ..\src\main\spark\com\river\spark\implicits\MyPredef.scala
 ..\src\main\spark\com\river\spark\implicits\Constant.scala -> ..\src\main\spark\com\river\spark\implicits\Constant.scala
 ..\src\main\spark\com\river\spark\implicits\RichFileDemo.scala -> ..\src\main\spark\com\river\spark\implicits\RichFileDemo.scala
-..\src\main\spark\com\river\spark\implicits\RichFileDemo.scala -> ..\src\main\spark\com\river\spark\implicits\MyPredef.scala
+..\src\main\spark\com\river\spark\implicits\RichFileDemo.scala -> ..\src\main\spark\com\river\spark\implicits\RichFile.scala
 ..\src\main\spark\com\river\spark\demo1\SetDemo.scala -> ..\src\main\spark\com\river\spark\demo1\SetDemo.scala
 ..\src\main\spark\com\river\spark\demo3\DataFrameSchema.scala -> ..\src\main\spark\com\river\spark\demo3\DataFrameSchema.scala
 ..\src\main\spark\com\river\spark\demo2\PrivateDemo.scala -> ..\src\main\spark\com\river\spark\demo2\PrivateDemo.scala
@@ -21,7 +20,7 @@ C:\MyProgram\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\MyProgram\Java\jdk1.8.0_2
 ..\src\main\spark\com\river\spark\demo2\ApplyDemo.scala -> ..\src\main\spark\com\river\spark\demo2\ApplyDemo.scala
 ..\src\main\spark\com\river\spark\demo1\MapDemo.scala -> ..\src\main\spark\com\river\spark\demo1\MapDemo.scala
 ..\src\main\spark\com\river\spark\demo3\DataFrameDemo.scala -> ..\src\main\spark\com\river\spark\demo3\DataFrameDemo.scala
-..\src\main\spark\com\river\spark\implicits\MyPredef.scala -> ..\src\main\spark\com\river\spark\implicits\MyPredef.scala
+..\src\main\spark\com\river\spark\implicits\RichFile.scala -> ..\src\main\spark\com\river\spark\implicits\RichFile.scala
 -------
 ..\src\main\spark\com\river\spark\demo1\TuppleDemo.scala -> classes\com\river\spark\demo1\TuppleDemo.class
 ..\src\main\spark\com\river\spark\demo1\TuppleDemo.scala -> classes\com\river\spark\demo1\TuppleDemo$$anonfun$main$1.class
@@ -90,6 +89,5 @@ C:\MyProgram\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\MyProgram\Java\jdk1.8.0_2
 ..\src\main\spark\com\river\spark\demo3\DataFrameDemo.scala -> classes\com\river\spark\demo3\Person.class
 ..\src\main\spark\com\river\spark\demo3\DataFrameDemo.scala -> classes\com\river\spark\demo3\Person$.class
 ..\src\main\spark\com\river\spark\demo3\DataFrameDemo.scala -> classes\com\river\spark\demo3\DataFrameDemo$.class
-..\src\main\spark\com\river\spark\implicits\MyPredef.scala -> classes\com\river\spark\implicits\MyPredef$.class
-..\src\main\spark\com\river\spark\implicits\MyPredef.scala -> classes\com\river\spark\implicits\MyPredef.class
-..\src\main\spark\com\river\spark\implicits\MyPredef.scala -> classes\com\river\spark\implicits\RichFile.class
+..\src\main\spark\com\river\spark\implicits\RichFile.scala -> classes\com\river\spark\implicits\RichFile$.class
+..\src\main\spark\com\river\spark\implicits\RichFile.scala -> classes\com\river\spark\implicits\RichFile.class

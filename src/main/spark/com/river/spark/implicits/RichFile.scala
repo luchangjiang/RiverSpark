@@ -8,6 +8,6 @@ class RichFile(val file: String){
   }
 }
 
-object MyPredef {
+object RichFile {
   implicit def fileToRichFile(file: String) = new RichFile(file)
 }
