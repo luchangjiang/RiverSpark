@@ -1,13 +1,11 @@
 package com.river.spark.implicits
 
+import com.river.spark.entity.Girl
+
 object GodnessContext{
   implicit object OrderingGirl extends Ordering[Girl] {
     override def compare(x: Girl, y: Girl): Int = if (x.faceValue>y.faceValue) 1 else -1
   }
-}
-
-class Girl(val name: String, val faceValue: Int){
-  override def toString: String = s"name= $name faceValue=$faceValue"
 }
 
 class Godness[T: Ordering](val v1: T, val v2: T){
@@ -16,8 +14,8 @@ class Godness[T: Ordering](val v1: T, val v2: T){
 }
 object Godness {
   def main(args: Array[String]): Unit = {
-    val g1 = new Girl("ning", 97)
-    val g2 = new Girl("ting", 99)
+    val g1 = new Girl("ning", 23,97)
+    val g2 = new Girl("ting", 28,99)
 
     import GodnessContext.OrderingGirl
     val girl = new Godness[Girl](g1, g2).choose();

@@ -1,5 +1,7 @@
 package com.river.spark.bound
 
+import com.river.spark.entity.Girl
+
 class ContextBound[T: Ordering] {
   def choose(t1: T, t2: T): T ={
     val ord: Ordering[T] = implicitly(Ordering[T])

@@ -1,5 +1,7 @@
 package com.river.spark.bound
 
+import com.river.spark.entity.Girl
+
 object PredefContext {
   implicit val selectGirl2 = (g: Girl) => new Ordered[Girl] {
     override def compare(that: Girl): Int = {

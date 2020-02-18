@@ -1,4 +1,4 @@
-package com.river.spark.bound
+package com.river.spark.entity
 
 class Girl(val name: String, val age: Int, val faceValue: Int){
   override def toString: String = {

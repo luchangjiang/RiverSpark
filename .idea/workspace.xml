@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a7d3a2c-bd8c-4dc0-a707-d31cff930021" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/ContextBoundDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/Girl.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/PredefContext.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/UpperBoundDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/ViewBoundDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/GodnessDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.scala_dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/target/.scala_dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/ContextBoundDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/ContextBoundDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/Girl.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/Girl.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/spark/com/river/spark/entity/Girl.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/PredefContext.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/PredefContext.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/ViewBoundDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/ViewBoundDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/GodnessDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/GodnessDemo.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,7 +58,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1" />
-          <entry key="scala" value="3911" />
+          <entry key="scala" value="3923" />
           <entry key="txt" value="90" />
         </counts>
       </usages-collector>
@@ -68,7 +66,7 @@
         <counts>
           <entry key="JAVA" value="1" />
           <entry key="PLAIN_TEXT" value="90" />
-          <entry key="Scala" value="3911" />
+          <entry key="Scala" value="3923" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -127,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/GodnessDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="251">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -148,26 +146,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/bound/ViewBoundDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="268">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/bound/Girl.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/entity/Girl.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="10" />
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/bound/ContextBoundDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="238">
+              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -175,8 +173,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/bound/PredefContext.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="51">
+              <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -233,13 +231,13 @@
         <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/Constant.scala" />
         <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/RichFile.scala" />
         <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/RichFileDemo.scala" />
-        <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/GodnessDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/UpperBoundDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/ContextBoundDemo.java" />
         <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/MyGirl2.scala" />
-        <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/ViewBoundDemo.scala" />
-        <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/PredefContext.scala" />
         <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/ContextBoundDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/PredefContext.scala" />
+        <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/bound/ViewBoundDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/GodnessDemo.scala" />
       </list>
     </option>
   </component>
@@ -349,11 +347,16 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582037270462" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582037600895" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../flink/code/FlinkTutorial" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -373,7 +376,7 @@
       <module name="RiverSpark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.spark.bound.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -412,7 +415,7 @@
       <module name="RiverSpark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.spark.bound.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -425,7 +428,7 @@
       <module name="RiverSpark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.spark.bound.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -471,18 +474,18 @@
       <updated>1581851555508</updated>
       <workItem from="1581851559833" duration="6297000" />
       <workItem from="1581858721723" duration="3696000" />
-      <workItem from="1581941194893" duration="18340000" />
+      <workItem from="1581941194893" duration="18665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28333000" />
+    <option name="totallyTimeSpent" value="28658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -491,7 +494,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18723404" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18723404" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -674,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/CarryingDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/Constant.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -709,13 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/GodnessDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/bound/MyGirl.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -730,6 +719,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/entity/Girl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/bound/ContextBoundDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/bound/UpperBoundDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -737,31 +740,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/bound/Girl.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/bound/PredefContext.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="10" />
+        <state relative-caret-position="51">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/bound/ViewBoundDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="268">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/bound/PredefContext.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/CarryingDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/bound/ContextBoundDemo.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/spark/com/river/spark/implicits/GodnessDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="251">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
     </entry>
