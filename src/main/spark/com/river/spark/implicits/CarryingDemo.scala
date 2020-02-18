@@ -6,7 +6,7 @@ object CarryingDemo {
   }
 
   def main(args: Array[String]): Unit = {
-    import Constant.lang
+    import com.river.spark.common.Constant.lang
     val func = m1("Hi~")
     println(func)
   }
