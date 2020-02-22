@@ -35,11 +35,11 @@ C:\MyProgram\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\MyProgram\Java\jdk1.8.0_2
 ..\src\main\spark\com\river\spark\akka\RemoteMsg.scala -> ..\src\main\spark\com\river\spark\akka\RemoteMsg.scala
 ..\src\main\spark\com\river\spark\demo2\ApplyDemo.scala -> ..\src\main\spark\com\river\spark\demo2\ApplyDemo.scala
 ..\src\main\spark\com\river\spark\demo1\MapDemo.scala -> ..\src\main\spark\com\river\spark\demo1\MapDemo.scala
+..\src\main\spark\com\river\spark\mobile\MobileLocation.scala -> ..\src\main\spark\com\river\spark\mobile\MobileLocation.scala
 ..\src\main\spark\com\river\spark\demo3\DataFrameDemo.scala -> ..\src\main\spark\com\river\spark\demo3\DataFrameDemo.scala
 ..\src\main\spark\com\river\spark\implicits\GodnessDemo.scala -> ..\src\main\spark\com\river\spark\implicits\GodnessDemo.scala
 ..\src\main\spark\com\river\spark\implicits\GodnessDemo.scala -> ..\src\main\spark\com\river\spark\entity\Girl.scala
-..\src\main\spark\com\river\spark\akka\Worker.scala -> ..\src\main\spark\com\river\spark\akka\RemoteMsg.scala
-..\src\main\spark\com\river\spark\akka\Worker.scala -> ..\src\main\spark\com\river\spark\akka\Worker.scala
+..\src\main\spark\com\river\spark\mobile\MobileLocation.scala -> ..\src\main\spark\com\river\spark\mobile\MobileLocation.scala
 ..\src\main\spark\com\river\spark\actor\ActorDemo1.scala -> ..\src\main\spark\com\river\spark\actor\ActorDemo1.scala
 ..\src\main\spark\com\river\spark\implicits\RichFile.scala -> ..\src\main\spark\com\river\spark\implicits\RichFile.scala
 -------
@@ -114,6 +114,10 @@ C:\MyProgram\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\MyProgram\Java\jdk1.8.0_2
 ..\src\main\spark\com\river\spark\demo1\ArrayDemo.scala -> classes\com\river\spark\demo1\ArrayDemo$$anonfun$main$1.class
 ..\src\main\spark\com\river\spark\implicits\RichFileDemo.scala -> classes\com\river\spark\implicits\RichFileDemo$.class
 ..\src\main\spark\com\river\spark\implicits\RichFileDemo.scala -> classes\com\river\spark\implicits\RichFileDemo.class
+..\src\main\spark\com\river\spark\akka\Worker.scala -> classes\com\river\spark\akka\Worker$.class
+..\src\main\spark\com\river\spark\akka\Worker.scala -> classes\com\river\spark\akka\Worker$$anonfun$receive$1.class
+..\src\main\spark\com\river\spark\akka\Worker.scala -> classes\com\river\spark\akka\Worker.class
+..\src\main\spark\com\river\spark\akka\Worker.scala -> classes\com\river\spark\akka\Worker$$anonfun$main$1.class
 ..\src\main\spark\com\river\spark\entity\Girl.scala -> classes\com\river\spark\entity\Girl.class
 ..\src\main\spark\com\river\spark\bound\ViewBoundDemo.scala -> classes\com\river\spark\bound\ViewBound.class
 ..\src\main\spark\com\river\spark\bound\ViewBoundDemo.scala -> classes\com\river\spark\bound\ViewBound$.class
@@ -159,6 +163,12 @@ C:\MyProgram\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\MyProgram\Java\jdk1.8.0_2
 ..\src\main\spark\com\river\spark\demo1\MapDemo.scala -> classes\com\river\spark\demo1\MapDemo$$anonfun$main$4.class
 ..\src\main\spark\com\river\spark\demo1\MapDemo.scala -> classes\com\river\spark\demo1\MapDemo$$anonfun$main$2.class
 ..\src\main\spark\com\river\spark\demo1\MapDemo.scala -> classes\com\river\spark\demo1\MapDemo$$anonfun$main$1.class
+..\src\main\spark\com\river\spark\mobile\MobileLocation.scala -> classes\com\river\spark\mobile\MobileLocation$$anonfun$4.class
+..\src\main\spark\com\river\spark\mobile\MobileLocation.scala -> classes\com\river\spark\mobile\MobileLocation.class
+..\src\main\spark\com\river\spark\mobile\MobileLocation.scala -> classes\com\river\spark\mobile\MobileLocation$$anonfun$3.class
+..\src\main\spark\com\river\spark\mobile\MobileLocation.scala -> classes\com\river\spark\mobile\MobileLocation$.class
+..\src\main\spark\com\river\spark\mobile\MobileLocation.scala -> classes\com\river\spark\mobile\MobileLocation$$anonfun$1.class
+..\src\main\spark\com\river\spark\mobile\MobileLocation.scala -> classes\com\river\spark\mobile\MobileLocation$$anonfun$2.class
 ..\src\main\spark\com\river\spark\demo3\DataFrameDemo.scala -> classes\com\river\spark\demo3\DataFrameDemo$$anonfun$1.class
 ..\src\main\spark\com\river\spark\demo3\DataFrameDemo.scala -> classes\com\river\spark\demo3\DataFrameDemo$$typecreator1$1.class
 ..\src\main\spark\com\river\spark\demo3\DataFrameDemo.scala -> classes\com\river\spark\demo3\DataFrameDemo.class
@@ -170,10 +180,6 @@ C:\MyProgram\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\MyProgram\Java\jdk1.8.0_2
 ..\src\main\spark\com\river\spark\implicits\GodnessDemo.scala -> classes\com\river\spark\implicits\GodnessContext$.class
 ..\src\main\spark\com\river\spark\implicits\GodnessDemo.scala -> classes\com\river\spark\implicits\GodnessContext$OrderingGirl$.class
 ..\src\main\spark\com\river\spark\implicits\GodnessDemo.scala -> classes\com\river\spark\implicits\GodnessContext.class
-..\src\main\spark\com\river\spark\akka\Worker.scala -> classes\com\river\spark\akka\Worker$.class
-..\src\main\spark\com\river\spark\akka\Worker.scala -> classes\com\river\spark\akka\Worker$$anonfun$receive$1.class
-..\src\main\spark\com\river\spark\akka\Worker.scala -> classes\com\river\spark\akka\Worker.class
-..\src\main\spark\com\river\spark\akka\Worker.scala -> classes\com\river\spark\akka\Worker$$anonfun$main$1.class
 ..\src\main\spark\com\river\spark\actor\ActorDemo1.scala -> classes\com\river\spark\actor\ActorDemo1.class
 ..\src\main\spark\com\river\spark\actor\ActorDemo1.scala -> classes\com\river\spark\actor\ActorDemo1$.class
 ..\src\main\spark\com\river\spark\actor\ActorDemo1.scala -> classes\com\river\spark\actor\ActorDemo2.class
