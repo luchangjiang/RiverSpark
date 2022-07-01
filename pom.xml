@@ -17,7 +17,7 @@
         <scala.version>2.10.6</scala.version>
         <spark.version>1.5.2</spark.version>
         <spark_hive.version>1.6.3</spark_hive.version>
-        <hadoop.version>2.6.4</hadoop.version>
+        <hadoop.version>2.7.0</hadoop.version>
         <hive.version>1.2.1</hive.version>
         <jedis.version>2.9.0</jedis.version>
         <fastjson_version>1.2.28</fastjson_version>
